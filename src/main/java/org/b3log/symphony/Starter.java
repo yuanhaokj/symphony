@@ -70,7 +70,7 @@ public final class Starter {
 
         final Options options = new Options();
         final Option listenPortOpt = Option.builder("lp").longOpt("listen_port").argName("LISTEN_PORT")
-                .hasArg().desc("listen port, default is 8080").build();
+                .hasArg().desc("listen port, default is 80").build();
         options.addOption(listenPortOpt);
 
         final Option serverSchemeOpt = Option.builder("ss").longOpt("server_scheme").argName("SERVER_SCHEME")
@@ -82,7 +82,7 @@ public final class Starter {
         options.addOption(serverHostOpt);
 
         final Option serverPortOpt = Option.builder("sp").longOpt("server_port").argName("SERVER_PORT")
-                .hasArg().desc("browser visit port, default is 8080").build();
+                .hasArg().desc("browser visit port, default is 80").build();
         options.addOption(serverPortOpt);
 
         final Option staticServerSchemeOpt = Option.builder("sss").longOpt("static_server_scheme").argName("STATIC_SERVER_SCHEME")
@@ -94,7 +94,7 @@ public final class Starter {
         options.addOption(staticServerHostOpt);
 
         final Option staticServerPortOpt = Option.builder("ssp").longOpt("static_server_port").argName("STATIC_SERVER_PORT")
-                .hasArg().desc("browser visit static resource port, default is 8080").build();
+                .hasArg().desc("browser visit static resource port, default is 80").build();
         options.addOption(staticServerPortOpt);
 
         final Option runtimeModeOpt = Option.builder("rm").longOpt("runtime_mode").argName("RUNTIME_MODE")
@@ -110,8 +110,8 @@ public final class Starter {
         final boolean isWindows = System.getProperty("os.name").toLowerCase().contains("windows");
         final String cmdSyntax = isWindows ? "java -cp \"WEB-INF/lib/*;WEB-INF/classes\" org.b3log.symphony.Starter"
                 : "java -cp \"WEB-INF/lib/*:WEB-INF/classes\" org.b3log.symphony.Starter";
-        final String header = "\nSym 是一款用 Java 实现的现代化社区（论坛/BBS/社交网络/博客）平台。\n\n";
-        final String footer = "\n提需求或报告缺陷请到项目网站: https://github.com/b3log/symphony\n\n";
+        final String header = "\n Welcome to DeepLearning and BigData forum 。\n\n";
+        final String footer = "\n You can contact us if you have an question : yuanhaokj@hotmail.com\n\n";
         try {
             commandLine = commandLineParser.parse(options, args);
         } catch (final ParseException e) {
@@ -128,7 +128,7 @@ public final class Starter {
 
         String portArg = commandLine.getOptionValue("listen_port");
         if (!Strings.isNumeric(portArg)) {
-            portArg = "8080";
+            portArg = "80";
         }
 
         try {

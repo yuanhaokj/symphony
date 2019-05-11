@@ -21,7 +21,7 @@
                                                         </tbody>
                                                     </table>
                                                     <div style="font-size:12px;color:#33ae81">
-                                                        <a href="${servePath}" style="font-weight:bold;color:#333;text-decoration:none" target="_blank">黑客与画家 • 账号</a>
+                                                        <a href="${servePath}" style="font-weight:bold;color:#333;text-decoration:none" target="_blank">Jaagool • 账号</a>
                                                     </div>
                                                     <table width="350" cellpadding="0" cellspacing="0" border="0">
                                                         <tbody>
@@ -83,7 +83,7 @@
                                                                 <td width="580" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif">
                                                                     <br><br>
                                                                     <p align="left" style="font-size:18px;line-height:24px;color:#333;font-weight:bold;margin-top:0px;margin-bottom:18px;font-family:Helvetica,Arial,sans-serif">
-                                                                        ${userName}，你好：
+                                                                        ${userName}，您好：
                                                                     </p>
                                                                     <div align="left" style="font-size:13px;line-height:20px;color:#444444;margin-top:0px;margin-bottom:18px;font-family:Helvetica,Arial,sans-serif">
                                                                         <#if url??>
@@ -94,14 +94,14 @@
                                                                     </div>
                                                                     <div style="border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#eee;margin-bottom:30px"></div>
                                                                     <p align="left" style="font-size:18px;line-height:24px;color:#333;font-weight:bold;margin-top:0px;margin-bottom:18px;font-family:Helvetica,Arial,sans-serif">
-                                                                        黑客与画家
+                                                                        Jaagool
                                                                     </p>
                                                                     <div align="left" style="font-size:13px;line-height:20px;color:#444444;margin-top:0px;margin-bottom:18px;font-family:Helvetica,Arial,sans-serif">
                                                                         <table>
                                                                             <tbody><tr style="border-collapse:collapse">
                                                                                     <td style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:13px;line-height:20px;padding:0 0 15px">
                                                                                         <ul>
-                                                                                            <li>我们正在构建一个活跃的小众社区</li>
+                                                                                            <li>我们正在构建一个活跃的社区</li>
                                                                                             <li>大家在这里相互信任，以 平等 • 自由 • 奔放 的价值观进行分享交流</li>
                                                                                             <li>最终，希望大家能够找到与自己志同道合的伙伴，共同成长</li>
                                                                                         </ul>

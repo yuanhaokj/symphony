@@ -21,7 +21,7 @@
     <div class="wrapper">
         <div class="slogan">
         ${indexIntroLabel} &nbsp; &nbsp;
-            <a href="https://github.com/b3log/symphony" target="_blank" class="tooltipped tooltipped-n"
+            <a href="https://www.yuanhaokj.cn" target="_blank" class="tooltipped tooltipped-n"
                aria-label="${siteCodeLabel}">
                 <svg class="icon-github">
                     <use xlink:href="#github"></use>
@@ -45,8 +45,8 @@
                     <#if footerBeiAnHao != ''>
                         <a href="http://www.miitbeian.gov.cn/" target="_blank">${footerBeiAnHao}</a> •
                     </#if>
-                    © ${year} <a href="https://b3log.org" target="_blank">B3log 开源</a>旗下云南链滴科技有限公司版权所有 •
-                    <a href="https://sym.b3log.org" target="_blank">Sym</a>
+                    © ${year} <a href="https://www.yuanhaokj.cn" target="_blank"> 技术论坛 </a>成都远浩科技有限责任公司 •
+                    <a href="https://www.yuanhaokj.cn" target="_blank">YuanHaoKJ</a>
                 ${version} • ${elapsed?c}ms
                 </div>
             </div>

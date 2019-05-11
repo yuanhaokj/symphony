@@ -90,6 +90,6 @@ public class JettyTestServer {
 
     public static void main(String[] args) throws Exception {
         JettyTestServer jettyTestServer = new JettyTestServer();
-        jettyTestServer.start(8080, true);
+        jettyTestServer.start(80, true);
     }
 }

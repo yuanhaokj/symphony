@@ -25,6 +25,10 @@
 @import "variables";
 @import "common";
 
+body,html {
+  height: 100%;
+}
+
 /* start common business */
 .article-list .cb-stick {
   position: absolute;
@@ -729,6 +733,7 @@ a[class*=" icon-"]:hover {
   padding: 20px 0;
   background-attachment: fixed;
   min-height: 280px;
+  height: 80%;
 }
 
 .main__down {
@@ -928,9 +933,36 @@ a[class*=" icon-"]:hover {
   color: #7d8186;
   line-height: 24px;
   padding: 10px 0;
-  position: relative;
-  z-index: 40;
+  //position: relative;
+  //z-index: 999;
   background-color: $theme-primary;
+
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+
+  //position:relative;
+  //bottom: 0px;
+  //left:0px;
+  //width: 100%;
+  //height: 80px;
+  //z-index:999;
+
+  //height:40px;
+  //position:fixed;
+  //bottom:0px;
+  //z-index:-1;
+
+  //height:50px;
+  //position:absolute;
+  //top:100%;
+  //margin-top:-50px;
+
+
+  //width: 100%;
+  //position: fixed;
+  //bottom: 0;
 
   a {
     color: #afb1b3;

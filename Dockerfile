@@ -14,6 +14,6 @@ COPY --from=MVN_BUILD /opt/sym/ /opt/sym/
 RUN apk add --no-cache ca-certificates tzdata ttf-dejavu
 
 ENV TZ=Asia/Shanghai
-EXPOSE 8080
+EXPOSE 80
 
 ENTRYPOINT [ "java", "-cp", "WEB-INF/lib/*:WEB-INF/classes", "org.b3log.symphony.Starter" ]
