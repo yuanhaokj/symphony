@@ -14,11 +14,11 @@
     <packaging>war</packaging>
     <version>3.4.8</version>
     <name>Symphony</name>
-    <url>https://sym.b3log.org</url>
+    <url>https://Jaagool.com</url>
     <description>
-        一款用 Java 实现的现代化社区（论坛/BBS/社交网络/博客）平台。
+        Jaagool社区,社交平台。
     </description>
-    <inceptionYear>2012</inceptionYear>
+    <inceptionYear>2019</inceptionYear>
 
     <properties>
         <latke.version>2.4.56</latke.version>
@@ -122,11 +122,11 @@
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/b3log/symphony/issues</url>
+        <url>http://www.jaagool.com/issues</url>
     </issueManagement>
 
     <scm>
-        <url>https://github.com/b3log/symphony</url>
+        <url>http://www.jaagool.com</url>
     </scm>
 
     <dependencies>

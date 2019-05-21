@@ -4,23 +4,23 @@
 下一代的社区系统，为未来而构建
 <br><br>
 <a title="Build Status" target="_blank" href="https://travis-ci.org/b3log/symphony"><img src="https://img.shields.io/travis/b3log/symphony.svg?style=flat-square"></a>
-<a title="Code Size" target="_blank" href="https://github.com/b3log/symphony"><img src="https://img.shields.io/github/languages/code-size/b3log/symphony.svg?style=flat-square"></a>
+<a title="Code Size" target="_blank" href="http://www.jaagool.com"><img src="https://img.shields.io/github/languages/code-size/b3log/symphony.svg?style=flat-square"></a>
 <a title="AGPLv3" target="_blank" href="https://www.gnu.org/licenses/agpl-3.0.txt"><img src="http://img.shields.io/badge/license-AGPLv3-orange.svg?style=flat-square"></a>
-<a title="Releases" target="_blank" href="https://github.com/b3log/symphony/releases"><img src="https://img.shields.io/github/release/b3log/symphony.svg?style=flat-square"></a>
+<a title="Releases" target="_blank" href="http://www.jaagool.com/releases"><img src="https://img.shields.io/github/release/b3log/symphony.svg?style=flat-square"></a>
 <br>
-<a title="Release Date" target="_blank" href="https://github.com/b3log/symphony/releases"><img src="https://img.shields.io/github/release-date/b3log/symphony.svg?style=flat-square&color=99CCFF"></a>
-<a title="Downloads" target="_blank" href="https://github.com/b3log/symphony/releases"><img src="https://img.shields.io/github/downloads/b3log/symphony/total.svg?style=flat-square"></a>
+<a title="Release Date" target="_blank" href="http://www.jaagool.com/releases"><img src="https://img.shields.io/github/release-date/b3log/symphony.svg?style=flat-square&color=99CCFF"></a>
+<a title="Downloads" target="_blank" href="http://www.jaagool.com/releases"><img src="https://img.shields.io/github/downloads/b3log/symphony/total.svg?style=flat-square"></a>
 <a title="Docker Pulls" target="_blank" href="https://hub.docker.com/r/b3log/symphony"><img src="https://img.shields.io/docker/pulls/b3log/symphony.svg?style=flat-square&color=blueviolet"></a>
 <a title="Docker Image Size" target="_blank" href="https://hub.docker.com/r/b3log/symphony"><img src="https://img.shields.io/microbadger/image-size/b3log/symphony.svg?style=flat-square&color=ff96b4"></a>
 <br>
-<a title="GitHub Commits" target="_blank" href="https://github.com/b3log/symphony/commits/master"><img src="https://img.shields.io/github/commit-activity/m/b3log/symphony.svg?style=flat-square"></a>
-<a title="Last Commit" target="_blank" href="https://github.com/b3log/symphony/commits/master"><img src="https://img.shields.io/github/last-commit/b3log/symphony.svg?style=flat-square&color=FF9900"></a>
-<a title="GitHub Pull Requests" target="_blank" href="https://github.com/b3log/symphony/pulls"><img src="https://img.shields.io/github/issues-pr-closed/b3log/symphony.svg?style=flat-square&color=FF9966"></a>
+<a title="GitHub Commits" target="_blank" href="http://www.jaagool.com/commits/master"><img src="https://img.shields.io/github/commit-activity/m/b3log/symphony.svg?style=flat-square"></a>
+<a title="Last Commit" target="_blank" href="http://www.jaagool.com/commits/master"><img src="https://img.shields.io/github/last-commit/b3log/symphony.svg?style=flat-square&color=FF9900"></a>
+<a title="GitHub Pull Requests" target="_blank" href="http://www.jaagool.com/pulls"><img src="https://img.shields.io/github/issues-pr-closed/b3log/symphony.svg?style=flat-square&color=FF9966"></a>
 <a title="Hits" target="_blank" href="https://github.com/b3log/hits"><img src="https://hits.b3log.org/b3log/symphony.svg"></a>
 <br><br>
-<a title="GitHub Watchers" target="_blank" href="https://github.com/b3log/symphony/watchers"><img src="https://img.shields.io/github/watchers/b3log/symphony.svg?label=Watchers&style=social"></a>&nbsp;&nbsp;
-<a title="GitHub Stars" target="_blank" href="https://github.com/b3log/symphony/stargazers"><img src="https://img.shields.io/github/stars/b3log/symphony.svg?label=Stars&style=social"></a>&nbsp;&nbsp;
-<a title="GitHub Forks" target="_blank" href="https://github.com/b3log/symphony/network/members"><img src="https://img.shields.io/github/forks/b3log/symphony.svg?label=Forks&style=social"></a>&nbsp;&nbsp;
+<a title="GitHub Watchers" target="_blank" href="http://www.jaagool.com/watchers"><img src="https://img.shields.io/github/watchers/b3log/symphony.svg?label=Watchers&style=social"></a>&nbsp;&nbsp;
+<a title="GitHub Stars" target="_blank" href="http://www.jaagool.com/stargazers"><img src="https://img.shields.io/github/stars/b3log/symphony.svg?label=Stars&style=social"></a>&nbsp;&nbsp;
+<a title="GitHub Forks" target="_blank" href="http://www.jaagool.com/network/members"><img src="https://img.shields.io/github/forks/b3log/symphony.svg?label=Forks&style=social"></a>&nbsp;&nbsp;
 <a title="Author GitHub Followers" target="_blank" href="https://github.com/88250"><img src="https://img.shields.io/github/followers/88250.svg?label=Followers&style=social"></a>
 </p>
 
@@ -61,7 +61,7 @@
 
 商业版：
 
-* [黑客派](https://hacpai.com)
+* [Jaagool](https://hacpai.com)
 * [IT遇岛](https://www.ityudao.com)
 * [汇桔网](https://bbs.wtoip.com)
 * [乾学院](http://c.raqsoft.com.cn)
@@ -110,7 +110,7 @@
 
 ### war 包启动
 
-[下载](https://github.com/b3log/symphony/releases)最新的 Sym 包解压，进入解压目录执行：
+[下载](http://www.jaagool.com/releases)最新的 Sym 包解压，进入解压目录执行：
 
 * Windows: `java -cp "WEB-INF/lib/*;WEB-INF/classes" org.b3log.symphony.Starter`
 * Unix-like: `java -cp "WEB-INF/lib/*:WEB-INF/classes" org.b3log.symphony.Starter`
@@ -151,7 +151,7 @@ docker run --detach --name sym --network=host \
 * [《提问的智慧》精读注解版](https://hacpai.com/article/1536377163156)
 * [Sym 安装指南](https://hacpai.com/article/1486188905847)
 * [Sym 配置项说明](https://hacpai.com/article/1524715380797)
-* [Sym 贡献指南](https://github.com/b3log/symphony/blob/master/CONTRIBUTING.md)
+* [Sym 贡献指南](http://www.jaagool.com/blob/master/CONTRIBUTING.md)
 
 ## 授权
 
@@ -166,7 +166,7 @@ docker run --detach --name sym --network=host \
 ## 社区
 
 * [讨论区](https://hacpai.com/tag/sym)
-* [报告问题](https://github.com/b3log/symphony/issues/new/choose)
+* [报告问题](http://www.jaagool.com/issues/new/choose)
 
 ## 鸣谢
 

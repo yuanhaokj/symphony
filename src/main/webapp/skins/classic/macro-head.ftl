@@ -24,7 +24,7 @@
 <title>${title}</title>
 <#nested>
 <link rel="preconnect" href="${staticServePath}">
-<meta name="copyright" content="B3log" />
+<meta name="copyright" content="Jaagool" />
 <meta http-equiv="Window-target" content="_top" />
 <link rel="stylesheet" href="${staticServePath}/css/responsive.css?${staticResourceVersion}" />
 <link rel="stylesheet" href="${staticServePath}/css/base.css?${staticResourceVersion}" />

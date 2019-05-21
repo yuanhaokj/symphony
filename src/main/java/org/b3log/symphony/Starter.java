@@ -39,6 +39,17 @@ import java.io.File;
  * <li>Unix-like: java -cp "WEB-INF/lib/*:WEB-INF/classes" org.b3log.symphony.Starter</li>
  * </ul>
  *
+ *
+ *         _                               _
+ *       | |                             | |
+ *       | | __ _  __ _  __ _  ___   ___ | |
+ *    _   | |/ _` |/ _` |/ _` |/ _ \ / _ \| |
+ *  | |__| | (_| | (_| | (_| | (_) | (_) | |
+ *   \____/ \__,_|\__,_|\__, |\___/ \___/|_|
+ *                       __/ |
+ *                      |___/
+ *
+ *
  * @author <a href="http://88250.b3log.org">Liang Ding</a>
  * @version 1.0.0.0, Mar 26, 2019
  * @since 3.4.8

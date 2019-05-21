@@ -66,7 +66,7 @@
                             <tr style="border-collapse:collapse">
                                 <td width="640" align="center" bgcolor="#FFFFFF" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif">
                                     <a href="${servePath}" target="_blank">
-                                        <img height="140" width="640" src="${staticServePath}/images/mail/verify-banner1.png" alt="Sym">
+                                        <img height="140" width="640" src="${staticServePath}/images/mail/verify-banner1.png" alt="Jaagool">
                                     </a>
                                 </td>
                             </tr>
@@ -101,9 +101,9 @@
                                                                             <tbody><tr style="border-collapse:collapse">
                                                                                     <td style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:13px;line-height:20px;padding:0 0 15px">
                                                                                         <ul>
-                                                                                            <li>我们正在构建一个活跃的社区</li>
-                                                                                            <li>大家在这里相互信任，以 平等 • 自由 • 奔放 的价值观进行分享交流</li>
-                                                                                            <li>最终，希望大家能够找到与自己志同道合的伙伴，共同成长</li>
+                                                                                            <li>我们正在构建一个活跃的技术社区</li>
+                                                                                            <li>大家在这里相互信任,能够找到志同道合的朋友进行交流</li>
+                                                                                            <li>欢迎您的参与</li>
                                                                                         </ul>
                                                                                     </td>
                                                                                 </tr>                                                        
@@ -154,7 +154,7 @@
                                                 </td>
                                                 <td width="40" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif"></td>
                                                 <td width="180" valign="top" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif">
-                                                    <p align="right" style="font-size:12px;line-height:18px;color:#999;margin-top:0px;margin-bottom:15px;white-space:normal"><span>© 2016 <a href="${servePath}" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">hacpai.com</a> <span style="color:#333;">黑客与画家</span></span><br style="line-height:100%"><span style="font-size:12px;color:#ccc;">Feel easy about trust.</span></p>
+                                                    <p align="right" style="font-size:12px;line-height:18px;color:#999;margin-top:0px;margin-bottom:15px;white-space:normal"><span>© 2016 <a href="${servePath}" style="color:#4183c4;font-weight:bold;text-decoration:none" target="_blank">jaagool.com</a> <span style="color:#333;">Jaagool 论坛</span></span><br style="line-height:100%"><span style="font-size:12px;color:#ccc;">Feel easy about trust.</span></p>
                                                 </td>
                                                 <td width="30" style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif"></td>
                                             </tr>

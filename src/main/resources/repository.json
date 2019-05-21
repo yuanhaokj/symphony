@@ -1437,7 +1437,7 @@
         {
           "name": "userAppRole",
           "type": "int",
-          "description": "0：应用角色 - 黑客，1：应用角色 - 画家"
+          "description": "0：应用角色 - 贡献者，1：应用角色 - 消费者"
         },
         {
           "name": "userCheckinTime",

@@ -22,8 +22,8 @@
 <div class="wrapper">
     <div class="vditor-reset ft-blue">
         <ul>
-            <li>Sym 社区版使用 AGPL 开源协议，请务必保证所有代码及其衍生代码开源，并在页脚放置开源库地址</li>
-            <li>云南链滴科技有限公司保留追究侵权人法律责任的权利</li>
+            <li>Jaagool技术论坛，汇集各大热门板块技术，一起成长</li>
+            <li>Jaagool技术论坛，是一个集博客，论坛，资源下载为一体的技术交流网站，欢迎您的参与</li>
         </ul>
     </div>
     <div class="fn-hr10"></div>

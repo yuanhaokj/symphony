@@ -28,9 +28,9 @@
         </div>
         <div class="fn-hr5"></div>
         <div>
-            © ${year} <a href="https://b3log.org" target="_blank">B3log 开源</a>旗下云南链滴科技有限公司版权所有
+            © ${year} <a href="http://www.yuanhaokj.cn" target="_blank">Jaagool 技术论坛</a> 成都远浩科技有限责任公司
             <div class="fn-hr5"></div>
-            <a href="https://sym.b3log.org" target="_blank">Sym</a>
+            <a href="http://www.yuanhaokj.cn" target="_blank">Jaagool</a>
         ${version} • ${elapsed?c}ms
         </div>
          <#if footerBeiAnHao != ''>

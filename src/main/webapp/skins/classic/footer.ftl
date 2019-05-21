@@ -20,7 +20,7 @@
 <div class="footer">
     <div class="wrapper">
         <div class="slogan">
-        ${indexIntroLabel} &nbsp; &nbsp;
+        ${indexIntroLabel} &nbsp;
             <a href="https://www.yuanhaokj.cn" target="_blank" class="tooltipped tooltipped-n"
                aria-label="${siteCodeLabel}">
                 <svg class="icon-github">
