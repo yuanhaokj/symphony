@@ -516,7 +516,7 @@ final class MailSender implements java.io.Serializable {
          * MailSender mailSender = getInstance();
          *
          * String subject = "eml with Image"; String content =
-         * "这是一封邮件正文带图片<img width=\"60px\" src=\"http://localhost:80/images/logo-M301-161X105.png\" />的邮件"
+         * "这是一封邮件正文带图片<img width=\"60px\" src=\"http://www.jaagool.com:80/images/logo-M301-161X105.png\" />的邮件"
          * ; String[] tos = { "bruceyang_it@163.com" };
          * mailSender.sendMessage(tos, subject, content, saved_path,
          * MailType.IMAGE);

@@ -87,7 +87,7 @@ public class MarkdownsTestCase {
             final String md = "Sym是一个用Java写的实时论坛，欢迎来[体验Sym](https://hacpai.com)！";
             final String html = Markdowns.toHTML(md);
 
-            Assert.assertEquals(html, "<p>Jaagool 是一个用 Java 写的实时论坛，欢迎来<a href=\"http://localhost:80/forward?goto=https%3A%2F%2Fhacpai.com\" target=\"_blank\" rel=\"nofollow\">体验 Jaagool</a>！</p>");
+            Assert.assertEquals(html, "<p>Jaagool 是一个用 Java 写的实时论坛，欢迎来<a href=\"http://www.jaagool.com:80/forward?goto=https%3A%2F%2Fhacpai.com\" target=\"_blank\" rel=\"nofollow\">体验 Jaagool</a>！</p>");
         }
     }
 

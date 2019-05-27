@@ -59,7 +59,7 @@
     </div>
     <div class="module-panel form fn-clear">
         <label>${emailLabel}</label>
-        <input id="emailInput" type="text" value="<#if !currentUser.userEmail?ends_with("sym.b3log.org")>${currentUser.userEmail}</#if>" />
+        <input id="emailInput" type="text" value="<#if !currentUser.userEmail?ends_with("hotmail.com")>${currentUser.userEmail}</#if>" />
 
         <div class="home-account__captch">
             <label>${imageCaptchaLabel}</label>

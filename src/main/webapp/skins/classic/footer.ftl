@@ -45,7 +45,7 @@
                     <#if footerBeiAnHao != ''>
                         <a href="http://www.miitbeian.gov.cn/" target="_blank">${footerBeiAnHao}</a> •
                     </#if>
-                    © ${year} <a href="https://www.yuanhaokj.cn" target="_blank"> 技术论坛 </a>成都远浩科技有限责任公司 •
+                    © ${year} <a href="https://www.yuanhaokj.cn" target="_blank"> 技术论坛 </a>
                     <a href="https://www.yuanhaokj.cn" target="_blank">YuanHaoKJ</a>
                 ${version} • ${elapsed?c}ms
                 </div>

@@ -18,7 +18,7 @@
                 } else {
                     console.log("您的浏览器支持WebSocket");
                 }
-                this.socket = new WebSocket("ws://localhost:8981/websocket");
+                this.socket = new WebSocket("ws://www.jaagool.com:8981/websocket");
                 //打开事件
                 this.socket.onopen = function () {
                     console.log("Socket 已打开");

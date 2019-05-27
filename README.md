@@ -134,7 +134,7 @@ docker run --detach --name sym --network=host \
     --env JDBC_PASSWORD="123456" \
     --env JDBC_DRIVER="com.mysql.cj.jdbc.Driver" \
     --env JDBC_URL="jdbc:mysql://127.0.0.1:3306/symphony?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC" \
-    b3log/symphony --listen_port=80 --server_scheme=http --server_host=localhost 
+    b3log/symphony --listen_port=80 --server_scheme=http --server_host=www.jaagool.com 
 ```
 为了简单，使用了主机网络模式来连接主机上的 MySQL。
  

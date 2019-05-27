@@ -89,7 +89,7 @@ public final class Starter {
         options.addOption(serverSchemeOpt);
 
         final Option serverHostOpt = Option.builder("sh").longOpt("server_host").argName("SERVER_HOST")
-                .hasArg().desc("browser visit domain name, default is localhost").build();
+                .hasArg().desc("browser visit domain name, default is www.jaagool.com").build();
         options.addOption(serverHostOpt);
 
         final Option serverPortOpt = Option.builder("sp").longOpt("server_port").argName("SERVER_PORT")
@@ -101,7 +101,7 @@ public final class Starter {
         options.addOption(staticServerSchemeOpt);
 
         final Option staticServerHostOpt = Option.builder("ssh").longOpt("static_server_host").argName("STATIC_SERVER_HOST")
-                .hasArg().desc("browser visit static resource domain name, default is localhost").build();
+                .hasArg().desc("browser visit static resource domain name, default is www.jaagool.com").build();
         options.addOption(staticServerHostOpt);
 
         final Option staticServerPortOpt = Option.builder("ssp").longOpt("static_server_port").argName("STATIC_SERVER_PORT")

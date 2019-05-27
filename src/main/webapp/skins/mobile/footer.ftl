@@ -28,7 +28,7 @@
         </div>
         <div class="fn-hr5"></div>
         <div>
-            © ${year} <a href="http://www.yuanhaokj.cn" target="_blank">Jaagool 技术论坛</a> 成都远浩科技有限责任公司
+            © ${year} <a href="http://www.yuanhaokj.cn" target="_blank">Jaagool 技术论坛</a>
             <div class="fn-hr5"></div>
             <a href="http://www.yuanhaokj.cn" target="_blank">Jaagool</a>
         ${version} • ${elapsed?c}ms

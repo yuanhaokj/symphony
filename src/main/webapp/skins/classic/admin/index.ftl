@@ -32,7 +32,7 @@
         <div class="module-panel vditor-reset ft-blue fn-content">
             <ul>
                 <li>Jaagool技术论坛，汇集各大热门板块技术，一起成长</li>
-                <li>云南链滴科技有限公司保留追究侵权人法律责任的权利</li>
+                <li>本论坛引用自云南链滴科技有限公司，并提供开源版本于github</li>
             </ul>
         </div>
     </div>

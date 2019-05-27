@@ -82,7 +82,7 @@ public final class Markdowns {
     /**
      * Markdown engine serve path. https://github.com/b3log/markdown-http
      */
-    private static final String MARKDOWN_ENGINE_URL = "http://localhost:8250";
+    private static final String MARKDOWN_ENGINE_URL = "http://www.jaagool.com:8250";
 
     /**
      * Built-in MD engine options.
