@@ -68,7 +68,7 @@ public final class Symphonys {
     /**
      * User-Agent.
      */
-    public static final String USER_AGENT_BOT = "Sym/" + SymphonyServletListener.VERSION + "; +https://github.com/b3log/symphony";
+    public static final String USER_AGENT_BOT = "Jaagool/" + SymphonyServletListener.VERSION + "; +https://github.com/b3log/symphony";
 
     /**
      * Reserved tags.
@@ -888,7 +888,7 @@ public final class Symphonys {
             // ignore
         }
 
-        // 向 Rhy 发送统计数据，仅发送站点名称、URL。用于 Sym 使用统计，如果不想发送请移除该代码
+        // 向 Rhy 发送统计数据，仅发送站点名称、URL。用于 Jaagool 使用统计，如果不想发送请移除该代码
         new Timer(true).schedule(new TimerTask() {
             @Override
             public void run() {

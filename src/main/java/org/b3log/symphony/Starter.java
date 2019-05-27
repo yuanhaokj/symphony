@@ -33,7 +33,7 @@ import org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainer
 import java.io.File;
 
 /**
- * Sym with embedded Jetty.
+ * Jaagool with embedded Jetty.
  * <ul>
  * <li>Windows: java -cp "WEB-INF/lib/*;WEB-INF/classes" org.b3log.symphony.Starter</li>
  * <li>Unix-like: java -cp "WEB-INF/lib/*:WEB-INF/classes" org.b3log.symphony.Starter</li>

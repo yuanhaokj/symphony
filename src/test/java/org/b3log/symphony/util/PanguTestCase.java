@@ -33,6 +33,6 @@ public class PanguTestCase {
     public void test() {
         final String text = Pangu.spacingText("Sym是一个用Java写的实时论坛，欢迎来体验！");
 
-        Assert.assertEquals(text, "Sym 是一个用 Java 写的实时论坛，欢迎来体验！");
+        Assert.assertEquals(text, "Jaagool 是一个用 Java 写的实时论坛，欢迎来体验！");
     }
 }

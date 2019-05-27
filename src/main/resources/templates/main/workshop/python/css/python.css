@@ -1,0 +1,91 @@
+
+.el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+}
+
+.el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    line-height: 400px;
+}
+
+.el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+}
+
+body > .el-container {
+    margin-bottom: 40px;
+    height:100%;width:100%;
+    border: 1px solid green;
+    position:fixed;
+    /*background: url(image/login.jpg) no-repeat;*/
+    text-align:center;
+}
+
+.el-container:nth-child(5) .el-aside,
+.el-container:nth-child(6) .el-aside {
+    line-height: 260px;
+}
+
+.el-container:nth-child(7) .el-aside {
+    line-height: 320px;
+}
+
+
+table
+{
+    background-color:#000000;
+    color:#ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+th,td,tr
+{
+    background-color:#000000;
+    color:#ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.stock-num-input
+{
+    width:150px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.left-side{
+    height: 100%;
+    width:80%;
+    float:left;
+    background: black;
+}
+.right-side{
+    height: 100%;
+    width:20%;
+    float:left;
+    background: black;
+}
+
+.real-time-border{
+    border: 2px;
+    solid : red;
+}
+
+.code-detail{
+    width: 100px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}

@@ -1,5 +1,5 @@
 <p align = "center">
-<img alt="Sym" src="https://user-images.githubusercontent.com/873584/52320309-9555a100-2a09-11e9-9252-f04dc47b0a31.png">
+<img alt="Jaagool" src="https://user-images.githubusercontent.com/873584/52320309-9555a100-2a09-11e9-9252-f04dc47b0a31.png">
 <br><br>
 下一代的社区系统，为未来而构建
 <br><br>
@@ -33,7 +33,7 @@
 * 包含了面向用户分享、交友、游戏的社交网络
 * `100%` 开源
 
-欢迎到 [Sym 官方讨论区](https://hacpai.com/tag/sym)了解更多。
+欢迎到 [Jaagool 官方讨论区](https://hacpai.com/tag/sym)了解更多。
 
 ## 动机
 
@@ -71,12 +71,12 @@
 
 ## 功能
 
-* [Sym 简介幻灯片](https://sym.b3log.org/syme-intro.pptx)
-* [Sym 功能点脑图](http://naotu.baidu.com/file/cd31354ac9abc047569c73c560a5a913?token=b9750ae13f39ef9a)
+* [Jaagool 简介幻灯片](https://sym.b3log.org/syme-intro.pptx)
+* [Jaagool 功能点脑图](http://naotu.baidu.com/file/cd31354ac9abc047569c73c560a5a913?token=b9750ae13f39ef9a)
 
 ## 界面
 
-以下截图来自 Sym 商业版。
+以下截图来自 Jaagool 商业版。
 
 **首页**
 
@@ -110,7 +110,7 @@
 
 ### war 包启动
 
-[下载](http://www.jaagool.com/releases)最新的 Sym 包解压，进入解压目录执行：
+[下载](http://www.jaagool.com/releases)最新的 Jaagool 包解压，进入解压目录执行：
 
 * Windows: `java -cp "WEB-INF/lib/*;WEB-INF/classes" org.b3log.symphony.Starter`
 * Unix-like: `java -cp "WEB-INF/lib/*:WEB-INF/classes" org.b3log.symphony.Starter`
@@ -149,9 +149,9 @@ docker run --detach --name sym --network=host \
 ## 文档
 
 * [《提问的智慧》精读注解版](https://hacpai.com/article/1536377163156)
-* [Sym 安装指南](https://hacpai.com/article/1486188905847)
-* [Sym 配置项说明](https://hacpai.com/article/1524715380797)
-* [Sym 贡献指南](http://www.jaagool.com/blob/master/CONTRIBUTING.md)
+* [Jaagool 安装指南](https://hacpai.com/article/1486188905847)
+* [Jaagool 配置项说明](https://hacpai.com/article/1524715380797)
+* [Jaagool 贡献指南](http://www.jaagool.com/blob/master/CONTRIBUTING.md)
 
 ## 授权
 

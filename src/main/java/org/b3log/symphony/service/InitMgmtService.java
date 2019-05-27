@@ -214,7 +214,7 @@ public class InitMgmtService {
     private UserQueryService userQueryService;
 
     /**
-     * Initializes Sym if first time setup.
+     * Initializes Jaagool if first time setup.
      */
     public void initSym() {
         try {
@@ -233,7 +233,7 @@ public class InitMgmtService {
             System.exit(0);
         }
 
-        LOGGER.info("It's your first time setup Sym, initializes Sym....");
+        LOGGER.info("It's your first time setup Jaagool, initializes Jaagool....");
 
         try {
             LOGGER.log(Level.INFO, "Database [{0}], creating all tables", Latkes.getRuntimeDatabase());
@@ -652,7 +652,7 @@ public class InitMgmtService {
             tag.put(Tag.TAG_URI, "announcement");
             tagMgmtService.updateTag(tagId, tag);
 
-            tagTitle = "Sym";
+            tagTitle = "Jaagool";
             tagId = tagMgmtService.addTag(adminId, tagTitle);
             tag = tagRepository.get(tagId);
             tag.put(Tag.TAG_URI, "sym");
@@ -672,9 +672,9 @@ public class InitMgmtService {
 
             articleMgmtService.addArticle(article);
 
-            LOGGER.info("Initialized Sym, have fun!");
+            LOGGER.info("Initialized Jaagool, have fun!");
         } catch (final Exception e) {
-            LOGGER.log(Level.ERROR, "Initializes Sym failed", e);
+            LOGGER.log(Level.ERROR, "Initializes Jaagool failed", e);
 
             System.exit(0);
         }
