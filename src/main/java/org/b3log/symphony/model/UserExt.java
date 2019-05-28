@@ -407,7 +407,7 @@ public final class UserExt {
     /**
      * Bot name.
      */
-    public static final String COM_BOT_NAME = "ComBot";
+    public static final String COM_BOT_NAME = "committer";
 
     /**
      * Bot email.
