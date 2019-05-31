@@ -43,7 +43,7 @@
             ${sloganLabel}
                 <div class="fn-right">
                     <#if footerBeiAnHao != ''>
-                        <a href="http://www.miitbeian.gov.cn/" target="_blank">${footerBeiAnHao}</a> •
+                        <a href="http://www.beian.miit.gov.cn/" target="_blank">${footerBeiAnHao}</a> •
                     </#if>
                     © ${year} <a href="https://www.yuanhaokj.cn" target="_blank"> 技术论坛 </a>
                     <a href="https://www.yuanhaokj.cn" target="_blank">YuanHaoKJ</a>

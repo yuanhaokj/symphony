@@ -25,6 +25,7 @@
 <#nested>
 <link rel="preconnect" href="${staticServePath}">
 <meta name="copyright" content="Jaagool" />
+<meta name="google-site-verification" content="NrlmUD7bt1em_AdJxtRcDVqA9Ihw_J7LU-XA0UsXFp0" />
 <meta http-equiv="Window-target" content="_top" />
 <link rel="stylesheet" href="${staticServePath}/css/responsive.css?${staticResourceVersion}" />
 <link rel="stylesheet" href="${staticServePath}/css/base.css?${staticResourceVersion}" />

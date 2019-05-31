@@ -31,14 +31,12 @@ import org.b3log.latke.util.URLs;
 import org.b3log.symphony.model.Common;
 import org.json.JSONObject;
 
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Session;
-import javax.mail.Transport;
+import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.io.File;
 import java.io.StringWriter;
+import java.security.Security;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.regex.Matcher;
@@ -459,6 +457,19 @@ final class MailSender implements java.io.Serializable {
         prop.setProperty("mail.smtp.sender", sender);
         prop.setProperty("mail.smtp.username", username);
         prop.setProperty("mail.smtp.passsword", password);
+
+        if(null != mail_smtp_ssl && "true".equals(mail_smtp_ssl)) {
+            Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
+            final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
+            //邮箱的发送服务器地址
+            prop.setProperty("mail.smtp.host", mail_host);
+            prop.setProperty("mail.smtp.socketFactory.class", SSL_FACTORY);
+            prop.setProperty("mail.smtp.socketFactory.fallback", "false");
+            //邮箱发送服务器端口,这里设置为465端口
+            prop.setProperty("mail.smtp.port", mail_port);
+            prop.setProperty("mail.smtp.socketFactory.port", mail_port);
+            prop.put("mail.smtp.auth", mail_smtp_auth);
+        }
     }
 
     public static final MailSender getInstance() {
@@ -529,6 +540,14 @@ final class MailSender implements java.io.Serializable {
     }
 
     public void sendMessage(String[] tos, String subject, String content) throws Exception {
+
+//        //获取到邮箱会话,利用匿名内部类的方式,将发送者邮箱用户名和密码授权给jvm
+//        Session session = Session.getDefaultInstance(prop, new Authenticator() {
+//            protected PasswordAuthentication getPasswordAuthentication() {
+//                return new PasswordAuthentication(username, password);
+//            }
+//        });
+
         // 1、创建session
         Session session = Session.getInstance(prop);
         // 开启Session的debug模式，这样就可以查看到程序发送Email的运行状态
