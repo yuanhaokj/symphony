@@ -17,7 +17,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 -->
-<div class="footer">
+<div id="footer_web_id" class="footer">
     <div class="wrapper ft-smaller">
         <div class="footer-nav">
         ${visionLabel}
@@ -45,6 +45,37 @@
 <script src="${staticServePath}/js/lib/compress/libs.min.js?${staticResourceVersion}"></script>
 <script src="https://cdn.jsdelivr.net/npm/vditor@1.3.3/dist/index.min.js"></script>
 <script src="${staticServePath}/js/common${miniPostfix}.js?${staticResourceVersion}"></script>
+
+<script type="text/javascript">
+    $(function(){
+        function footerPosition(){
+            // $("footer-id").removeClass("fixed-bottom");
+
+            var contentHeight = document.body.scrollHeight;//网页正文全文高度
+            var winHeight = window.innerHeight;//可视窗口高度，不包括浏览器顶部工具栏
+            if(!(contentHeight > winHeight)){
+                //当网页正文高度小于可视窗口高度时，为footer添加类fixed-bottom
+                // $("footer-id").addClass("fixed-bottom");
+                // $("#footer_web_id").removeClass("footer");
+                $(document.body).height("100%");
+                $(".main").height("75%");
+                // $("#footer_web_id").addClass("fixed-bottom");
+
+                // $(document.html).height("100%");
+                // var all_height = $(document.body).height;
+                // var footer_height = $("footer-id").height;
+                // var pre_height = $(document.body).height - $("footer-id").height;
+                // $.prev().height(pre_height);
+
+            } else {
+                // $("footer").removeClass("fixed-bottom");
+            }
+        }
+        footerPosition();
+        $(window).resize(footerPosition);
+    });
+</script>
+
 <script>
     var Label = {
         commentEditorPlaceholderLabel: '${commentEditorPlaceholderLabel}',

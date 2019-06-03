@@ -26,6 +26,7 @@
 <link rel="preconnect" href="${staticServePath}">
 <meta name="copyright" content="Jaagool" />
 <meta name="google-site-verification" content="NrlmUD7bt1em_AdJxtRcDVqA9Ihw_J7LU-XA0UsXFp0" />
+<meta name="360-site-verification" content="bdbcec19badb23a97a2f3b3c6e12849f" />
 <meta http-equiv="Window-target" content="_top" />
 <link rel="stylesheet" href="${staticServePath}/css/responsive.css?${staticResourceVersion}" />
 <link rel="stylesheet" href="${staticServePath}/css/base.css?${staticResourceVersion}" />

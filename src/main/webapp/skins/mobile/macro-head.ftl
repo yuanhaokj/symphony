@@ -26,6 +26,8 @@
 <#nested>
 <meta name="copyright" content="B3log" />
 <meta http-equiv="Window-target" content="_top" />
+<meta name="google-site-verification" content="NrlmUD7bt1em_AdJxtRcDVqA9Ihw_J7LU-XA0UsXFp0" />
+<meta name="360-site-verification" content="bdbcec19badb23a97a2f3b3c6e12849f" />
 <link rel="stylesheet" href="${staticServePath}/css/mobile-base.css?${staticResourceVersion}" />
 <link rel="icon" type="image/png" href="${staticServePath}/images/favicon.png" />
 <link rel="apple-touch-icon" href="${staticServePath}/images/faviconH.png">
